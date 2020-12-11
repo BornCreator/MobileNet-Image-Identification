@@ -1,0 +1,59 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body style="font-family: 'Permanent Marker', cursive;background:linear-gradient(green 0%,blue 100%);">
+    <center>
+      <div class="col-xs-12 HeadingDiv">
+        <h1>Image Identification Model<img src="logo.gif" style="width:75px;height:75px;border-radius: 50%;"></h1>
+      </div>
+      <br>
+      <div class="col-xs-12 col-sm-6 col-lg-6 MainDiv">
+        <label>Webcam View - </label>
+        <div id="cameral"></div>
+        <button onclick="TakeSnapshot()" class="btn btn-info">Take Picture</button>
+        </div>
+
+        <div class="col-sm-6 col-xs-12 col-lg-6 MainDiv">
+          <label>Snapshot - </label>
+          <div id="result"></div>
+          <button onclick="checkit();" class="btn btn-success">Identify Image</button>
+        </div>
+
+        <div class="col-xs-12 FooterDiv">
+          <h4 class="col-xs-12 col-sm-6">
+            <img src="blub.gif">
+            <span id="ObjectName"></span>
+          </h4>
+        </div>
+
+        <div class="CopyRightFooter">Developed By Me XD</div>
+    </center>
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

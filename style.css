@@ -1,0 +1,56 @@
+.HeadingDiv{
+    background-color: aliceblue;
+    color:black;
+}
+
+.MainDiv{
+    background-color: fuchsia;
+    padding:10px;
+    border:2px solid white;
+}
+
+#camera,#result{
+    width:350px;
+    height:300px;
+    border:2px ridge red;
+    box-shadow: 2px 2px 2px blue,-2px -2px 2px green;
+}
+
+.MainDiv label{
+    font-size: x-large;
+}
+
+.MainDiv button{
+    margin-top:20px;
+    width:300px;
+    box-shadow: 5px 5px 18px white;
+    border: 1px solid;
+    font-size:larger;
+}
+
+.FooterDiv{
+    margin-bottom: 50px;
+}
+
+.FooterDiv img{
+    width:70px;
+}
+
+.FooterDiv h4{
+    background-color: white;
+    border-radius: 10px;
+    padding:5px;
+    box-shadow:5px 5px 18px white,-5px -5px 18px white;
+}
+
+.CopyRightFooter{
+    position:fixed;
+    bottom:0px;
+    color:gray;
+    background-color: white;
+    text-align:center;
+    line-height: 13px;
+    width:100%;
+    font-size:larger;
+    
+}
